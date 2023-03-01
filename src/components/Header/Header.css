@@ -5,11 +5,12 @@
     height: 50px;
     padding: 10px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .headerContent{
     font-size: 40px;
     font-family: 'Big Shoulders Inline Display';
     color: white;
-    margin-left: 100px;
+    width: 60%;
 }

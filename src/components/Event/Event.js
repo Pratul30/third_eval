@@ -37,8 +37,8 @@ function Event({ event, isDetails }) {
     }
 
     return (
-        <div className='event' onClick={navigateToDetails}>
-            <img src={`${event.imgUrl}`} className="eventImage" alt="recordImage" />
+        <div className='event'>
+            <img src={`${event.imgUrl}`} className="eventImage" alt="recordImage" onClick={navigateToDetails} />
             <div className='eventContent'>
                 <div className='eventNameDescription'>
                     <div className='eventTitle'>{event.name}</div>

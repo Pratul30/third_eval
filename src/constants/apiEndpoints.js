@@ -9,3 +9,8 @@ export const UPDATE_EVENT = (recordId) => ({
     url: `events/${recordId}`,
     method: "patch",
 });
+
+export const GET_ALL_THEMES = {
+  url: "events",
+  method: "get",
+};
