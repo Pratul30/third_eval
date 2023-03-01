@@ -1,0 +1,13 @@
+.filterSearchBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter{
+    display: flex;
+}
+
+.input{
+    padding: 5px;
+    border-radius: 10px;
+}

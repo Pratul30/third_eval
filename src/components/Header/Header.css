@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.headerContent{
+    font-size: 40px;
+    font-family: 'Big Shoulders Inline Display';
+    color: white;
+    margin-left: 100px;
+}

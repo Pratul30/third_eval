@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@700&display=swap');
+
+.eventList{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.eventListBodyWrapper{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.eventListBody{
+    width: 70%;
+}
