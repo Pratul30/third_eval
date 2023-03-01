@@ -1,8 +1,8 @@
-.event {
+.eventDetails {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 400px;
+    flex-grow: 1;
     width: 40%;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -10,13 +10,13 @@
     background-color: black;
 }
 
-.eventImage {
-    height: 50%;
+.eventDetailsImage {
+    height: 40%;
     width: 100%;
     border-radius: 10px 10px;
 }
 
-.eventContent {
+.eventDetailsContent {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -28,60 +28,68 @@
 }
 
 
-.eventTitle{
+.eventDetailsTitle{
     overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Big Shoulders Text';
   color: white;
 }
 
-.eventDescription{
+.eventDetailsDescription{
     overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   font-family: 'Sofia Sans';
 }
 
-.venue{
+.venueDetails{
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Sofia Sans';
 }
 
-.date{
+.dateDetails{
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: 'Sofia Sans';
 }
 
-.reactions{
+.reactionsDetails{
     display: flex;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
 }
 
-.leftReaction{
+.leftReactionDetails{
     flex-grow: 1;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Sofia Sans';
     text-align: left;
     color: lightgreen;
     font-weight: bold;
+}
+
+.registerDetails{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 15px;
 }
 
 /* .recordButton{

@@ -9,6 +9,7 @@ import Shelf from '../../components/Shelf/Shelf'
 
 function EventList() {
 
+
   const [filterState, setFilterState] = useState(false)
 
   const displayFilter = filterState ? '' : 'none'
